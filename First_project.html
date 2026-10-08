@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Takeoff</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #fffaf2;
+            color: #40394a;
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+        }
+
+        header, footer {
+            background-color: #e9dff5;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #59436d;
+        }
+
+        h1 { font-size: 36px; }
+        h2 { font-size: 28px; }
+        h3 { font-size: 23px; }
+        h4 { font-size: 21px; }
+        h5 { font-size: 19px; }
+        h6 { font-size: 17px; }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #f9e2e8;
+        }
+
+        a { color: #624278; }
+        nav a { margin: 0 12px; }
+
+        main {
+            max-width: 850px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 35px;
+            padding: 25px;
+            background-color: #ffffff;
+            border-radius: 16px;
+        }
+
+        .hobby {
+            background-color: #f9edf1;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 12px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 12px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #e9dff5;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #project { background-color: #eaf4ef; }
+        li { margin-bottom: 10px; }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: 0;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header id="top">
+        <h1>My First Takeoff</h1>
+        <p>My hobbies, my ideas, my first build.</p>
+    </header>
+
+    <!-- These links jump to sections in the same file. -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#project">Paper Plane Project</a>
+    </nav>
+
+    <main>
+        <!-- FIRST PART: INTRODUCTION AND HOBBIES -->
+        <section id="about">
+            <h2>Hello! Welcome to my first website.</h2>
+            <p>
+                I am a first-year student learning HTML and CSS.
+                This website is my first project for the AI Club.
+                Here, I am sharing my hobbies and a simple paper-plane project.
+            </p>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <p>Here are three things I enjoy doing in my free time.</p>
+
+            <div class="hobby">
+                <h3>Badminton</h3>
+                <img src="badminton.jpg" alt="Badminton rackets and shuttlecocks">
+                <p>I enjoy playing badminton. It is a fun way to stay active and take a break from studying.</p>
+            </div>
+
+            <div class="hobby">
+                <h3>Singing</h3>
+                <img src="singing.jpg" alt="A studio microphone with pink lighting">
+                <p>I enjoy singing my favourite songs. Music gives me a way to express myself and relax.</p>
+            </div>
+
+            <div class="hobby">
+                <h3>Baking</h3>
+                <img src="baking.jpg" alt="Homemade cookies on a baking tray">
+                <p>I enjoy baking and trying sweet treats. It is exciting to turn simple ingredients into something delicious.</p>
+            </div>
+
+            <a class="button" href="#project">Explore My Paper Plane Project</a>
+        </section>
+
+        <!-- SECOND PART: THE PAPER-PLANE PROJECT -->
+        <section id="project">
+            <h2>My Paper Plane Project</h2>
+            <p>A small sheet of paper can become something that flies. Let us make a classic dart paper plane!</p>
+            <img src="paper_plane.jpg" alt="White and purple folded paper craft">
+            <p><em>Paper-folding inspiration for my first build.</em></p>
+
+            <h3>Build a Classic Dart</h3>
+            <p>This project uses one sheet of paper, with no glue or scissors needed.</p>
+
+            <h4>Materials Needed</h4>
+            <!-- ul creates a bulleted list. -->
+            <ul>
+                <li>One rectangular sheet of paper, such as A4 paper</li>
+                <li>A flat surface for folding</li>
+                <li>Colour pencils for decorating (optional)</li>
+            </ul>
+
+            <h4>How to Fold the Plane</h4>
+            <!-- ol creates a numbered list. -->
+            <ol>
+                <li>Place the paper on a table with a short edge at the top.</li>
+                <li>Fold it in half lengthwise. Press the fold, then open the paper again.</li>
+                <li>Fold both top corners inward so they meet at the centre crease.</li>
+                <li>Fold the two upper sloping edges inward again so they meet at the centre crease. The nose should now be narrow.</li>
+                <li>Fold the plane in half along the centre crease, keeping the previous folds on the outside.</li>
+                <li>Fold one side down to make a wing, lining its upper sloping edge up with the bottom of the body. Turn the plane over and repeat.</li>
+                <li>Lift the wings slightly so they are level with each other. Hold the body underneath and gently launch the plane.</li>
+            </ol>
+
+            <h5>Tips for Your First Flight</h5>
+            <ul>
+                <li>Make neat folds and press each crease firmly.</li>
+                <li>Keep both wings the same size.</li>
+                <li>Try a gentle, level throw in an open space.</li>
+                <li>Change one thing at a time and see how the next flight changes.</li>
+            </ul>
+
+            <h6>A Small Safety Reminder</h6>
+            <p>Fly your plane away from faces, roads and fragile objects.</p>
+
+            <h3>Watch the Folding Tutorial</h3>
+            <p>Follow this Fold 'N Fly video while making your plane.</p>
+
+            <!-- The YouTube video needs an internet connection. -->
+            <iframe
+                src="https://www.youtube.com/embed/gZQI1Z_viNg"
+                title="Fold 'N Fly: Basic Dart paper airplane tutorial"
+                allowfullscreen>
+            </iframe>
+
+            <p>
+                If the video does not play here,
+                <a href="https://www.youtube.com/watch?v=gZQI1Z_viNg" target="_blank" rel="noopener noreferrer">watch it on YouTube</a>.
+            </p>
+
+            <h3>Try a Flying Challenge</h3>
+            <p>Fly your plane three times and compare how far it travels. Which throw works best?</p>
+
+            <a class="button" href="#top">Back to the Top</a>
+        </section>
+
+        <section>
+            <h2>Picture and Video References</h2>
+            <ul>
+                <li><a href="https://www.pexels.com/photo/badminton-rackets-and-shuttlecocks-on-a-white-background-6307231/">Badminton picture: Pexels</a></li>
+                <li><a href="https://unsplash.com/photos/pink-and-silver-condenser-microphone--uv6f6mKFbg">Singing picture: Sandra Tenschert on Unsplash</a></li>
+                <li><a href="https://www.pexels.com/photo/cookies-on-baking-tray-14839148/">Baking picture: Pexels</a></li>
+                <li><a href="https://www.pexels.com/photo/white-and-purple-papers-in-close-up-shot-9168805/">Paper-folding picture: Pexels</a></li>
+                <li><a href="https://www.youtube.com/watch?v=gZQI1Z_viNg">Basic Dart video: Fold 'N Fly</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>My First Takeoff | My first HTML and CSS project</p>
+        <p>Made with curiosity, creativity and a little paper.</p>
+    </footer>
+</body>
+</html>
